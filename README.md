@@ -176,10 +176,10 @@
        track_script {
        
            check_webserver
-       }
-   }
+          }
+      }
 
-   vrrp_script check_web {
+      vrrp_script check_web {
        
        script "/usr/local/bin/check_webserver.sh"
        
@@ -188,7 +188,7 @@
        fall 1
        
        rise 2
-   }
+      }
 
 #### Создание Bash-скрипта:
 
