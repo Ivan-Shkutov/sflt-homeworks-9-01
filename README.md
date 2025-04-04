@@ -47,43 +47,45 @@
 
       interface GigabitEthernet0/0
    
-       ip address 192.168.1.2 255.255.255.0
+        ip address 192.168.1.2 255.255.255.0
        
-       duplex auto
+        duplex auto
        
-       speed auto
+        speed auto
        
-       standby version 2
+        standby version 2
        
-       standby 1 ip 192.168.1.1
+        standby 1 ip 192.168.1.1
        
-       standby 1 priority 120
+        standby 1 priority 120
        
-       standby 1 preempt
+        standby 1 preempt
    
       !
    
       interface GigabitEthernet0/1
        
-       ip address 192.168.2.2 255.255.255.0
+        ip address 192.168.2.2 255.255.255.0
        
-       duplex auto
+        duplex auto
        
-       speed auto
+        speed auto
        
-       standby version 2
+        standby version 2
        
-       standby 2 ip 192.168.2.1
+        standby 2 ip 192.168.2.1
        
-       standby 2 priority 120
+        standby 2 priority 120
        
-       standby 2 preempt	
+        standby 2 preempt	
  
  
  
  #### Router1 configuration
- interface GigabitEthernet0/0
- ip address 192.168.1.3 255.255.255.0
+ 
+       interface GigabitEthernet0/0
+       
+          ip address 192.168.1.3 255.255.255.0
  duplex auto
  speed auto
  standby version 2
