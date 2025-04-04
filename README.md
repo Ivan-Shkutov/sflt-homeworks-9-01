@@ -46,6 +46,17 @@
 - На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
 
 ------
+
+![PC01](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.1.png)
+
+![show_standby_brief](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.2.png)
+
+![standby_brief](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.3.png)
+
+![HSRP_configuration](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.4.png)
+
+
+
 #### Router0 configuration	
 
       interface GigabitEthernet0/0
@@ -112,16 +123,7 @@
         
         standby 2 ip 192.168.2.1
 
-
-![PC01](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.1.png)
-
-![show_standby_brief](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.2.png)
-
-![standby_brief](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.3.png)
-
-![HSRP_configuration](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.4.png)
-
-
+        
 ------
 ### Задание 2
 - Запустите две виртуальные машины Linux, установите и настройте сервис Keepalived как в лекции, используя пример конфигурационного [файла](1/keepalived-simple.conf).
