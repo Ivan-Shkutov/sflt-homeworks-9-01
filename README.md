@@ -133,6 +133,84 @@
 - На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
 
 ------
+#### Установка Nginx на Ubuntu:
+
+      sudo apt update
+   
+      sudo apt install nginx -y
+
+#### Создание файла index.html на двух виртуальных машинах:
+
+      echo "Welcome to the web server!" | sudo tee /var/www/html/index.html
+
+#### Запуск сервера Nginx на Ubuntu:
+
+      sudo systemctl start nginx
+      
+      sudo systemctl status nginx
+
+#### Установка и настройка Keepalived:
+
+      sudo apt install keepalived -y
+      
+#### Конфигурация файла keepalived.conf:
+
+      rrp_instance check_webserver {
+      
+       state BACKUP
+      
+       interface enp0s8
+       
+       virtual_router_id 15
+       
+       priority 255
+       
+       advert_int 1
+
+       virtual_ipaddress {
+       
+           192.168.1.15
+       
+       }
+       
+       track_script {
+       
+           check_webserver
+       }
+   }
+
+   vrrp_script check_web {
+       
+       script "/usr/local/bin/check_webserver.sh"
+       
+       interval 3
+       
+       fall 1
+       
+       rise 2
+   }
+
+#### Создание Bash-скрипта:
+
+   if ! nc -z 127.0.0.1 80; then
+   
+       echo "Port 80 is down"
+       
+       exit 1
+       
+   fi
+   
+   if [ ! -f /var/www/html/index.html ]; then
+   
+       echo "File index.html is missing"
+    
+       exit 1
+       
+   fi
+
+   echo "Web server is running"
+   
+   exit 0
 
 
 ------
