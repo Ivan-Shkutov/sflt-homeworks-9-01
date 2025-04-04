@@ -222,19 +222,19 @@
 
    vm2: связь присутствует на всех ip адресах 192.168.1.5,  192.168.1.7,  192.168.1.15.
 
-![1](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
+![1](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/2.1.png)
 
-![2](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
+![2](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/2.2.png)
 
-![3](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
+![3](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/2.3.png)
 
-![4](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
+![4](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/2.4.png)
 
-![5](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
+![5](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/2.5.png)
 
-![6](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
+![6](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/2.6.png)
 
-![7](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
+![7](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/2.7.png)
 
 
 ------
