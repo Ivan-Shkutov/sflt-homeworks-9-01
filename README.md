@@ -192,25 +192,25 @@
 
 #### Создание Bash-скрипта:
 
-   if ! nc -z 127.0.0.1 80; then
+      if ! nc -z 127.0.0.1 80; then
    
        echo "Port 80 is down"
        
        exit 1
        
-   fi
+      fi
    
-   if [ ! -f /var/www/html/index.html ]; then
+      if [ ! -f /var/www/html/index.html ]; then
    
        echo "File index.html is missing"
     
        exit 1
        
-   fi
+      fi
 
-   echo "Web server is running"
+      echo "Web server is running"
    
-   exit 0
+      exit 0
 
 
 ------
