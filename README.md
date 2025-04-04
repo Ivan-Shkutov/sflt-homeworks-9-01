@@ -45,7 +45,7 @@
 ------
 #### Router0 configuration	
 
-   interface GigabitEthernet0/0
+      interface GigabitEthernet0/0
    
        ip address 192.168.1.2 255.255.255.0
        
@@ -61,9 +61,9 @@
        
        standby 1 preempt
    
-   !
+      !
    
-   interface GigabitEthernet0/1
+      interface GigabitEthernet0/1
        
        ip address 192.168.2.2 255.255.255.0
        
