@@ -113,6 +113,13 @@
         standby 2 ip 192.168.2.1
 
 
+![PC01](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
+
+![show_standby_brief](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
+
+![standby_brief](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
+
+![HSRP_configuration](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
 
 
 ------
